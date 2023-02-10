@@ -1,0 +1,300 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Unbounded";
+  background-color: rgba(243, 239, 224, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.section-header {
+  font-size: 32px;
+  font-weight: 500;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 24px;
+  letter-spacing: 0.37px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 5px 10px;
+  width: fit-content;
+  padding: 20px;
+}
+
+/* Navbar - START */
+nav {
+  background-color: rgba(96, 158, 162, 1);
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 25px 48px;
+}
+
+.nav-title {
+  font-weight: 600;
+  font-size: 32px;
+  color: black;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 32px;
+  width: 280px;
+  color: white;
+}
+
+.nav-link-item:hover {
+  transition: 0.4s;
+  cursor: pointer;
+  color: black;
+}
+/* Navbar - END */
+
+/* Main - START */
+
+.main-img {
+  position: absolute;
+  width: 833px;
+  top: -160px;
+  z-index: -1;
+}
+
+.main-header {
+  font-size: 64px;
+  line-height: 72px;
+  font-weight: 500;
+  letter-spacing: 0.37px;
+
+  margin: auto;
+  margin-top: 260px;
+  width: 469px;
+
+  color: #ffffff;
+}
+/* Main - END */
+
+/* About - START */
+.about {
+  margin-top: 380px;
+  padding: 160px 48px;
+  background-color: rgba(34, 34, 34, 1);
+  color: white;
+}
+
+.about-content {
+  width: 850px;
+  margin: auto;
+  margin-top: 72px;
+
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0.5px;
+
+  color: #ffffff;
+}
+
+.about-content-tag {
+  font-size: 28px;
+}
+
+.about-content-text {
+  font-size: 24px;
+  line-height: 42px;
+  padding: 12px 64px;
+}
+
+/* About me - END */
+
+/* Skills - START */
+.skills {
+  padding: 160px 48px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.skills-title {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.skills-item {
+  margin-top: 80px;
+  margin-left: 0px;
+  margin-right: 80px;
+}
+
+.skill-tech {
+  margin-top: 140px;
+}
+
+.skill-tool {
+  margin-top: 100px;
+}
+
+/* skill-box */
+.skill-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.skill-box-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.37px;
+}
+
+/* skill-item */
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.skill-item-head {
+  font-weight: 600;
+}
+
+.skill-item-list {
+  margin-top: 12px;
+  font-weight: 400;
+
+  line-height: 32px;
+  letter-spacing: 0.37px;
+}
+/* Skills - END */
+
+/* Projects - START */
+.projects {
+  padding: 160px 48px;
+  background-color: rgba(232, 69, 69, 1);
+  color: white;
+}
+
+.projects-web-title {
+  margin-top: 80px;
+  margin-left: 100px;
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.37px;
+
+  color: #ffffff;
+}
+
+.card-container {
+  margin-top: 8px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Card */
+.card {
+  margin-top: 48px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+
+  border-radius: 20px;
+  border: 4px solid black;
+  /* box-shadow: 10px 15px black; */
+  padding: 0px 22px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.card:hover {
+  transition: 0.4s;
+  cursor: pointer;
+  box-shadow: 10px 15px black;
+}
+
+.card-img {
+  box-sizing: border-box;
+  height: 273px;
+  width: 347px;
+
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-title {
+  width: 347px;
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.37px;
+}
+
+.card-tech {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.37px;
+
+  color: #000000;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-tools {
+  /* margin-top: 6px; */
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.37px;
+  width: 347px;
+
+  color: #000000;
+}
+
+.card-button {
+  margin-top: 16px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 5px;
+  border: 2px solid black;
+
+  background-color: rgba(232, 69, 69, 1);
+  color: white;
+  text-decoration: none;
+}
+
+.card-button:hover {
+  transition: 0.4s;
+  cursor: pointer;
+  box-shadow: 2px 5px black;
+}
