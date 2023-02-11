@@ -4,10 +4,12 @@ import Main from "./Components/Main";
 import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
+import SocialIcons from "./Components/SocialIcons";
 
 export default function App() {
   return (
     <div>
+      <SocialIcons />
       <Navbar />
       <Main />
       <About />
