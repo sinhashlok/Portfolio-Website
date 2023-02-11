@@ -18,6 +18,16 @@ export default function Projects() {
           live="https://sinhashlok.github.io/Intro-Component-with-Signup-Form/"
         />
         <Card
+          img="portfolio-website"
+          title="Portfolio Website"
+          tools="HTML, CSS, Javascript, React js
+Material UI"
+          availableGit={true}
+          availableLink={true}
+          gitHub="https://github.com/sinhashlok/Portfolio-Website"
+          link="https://sinha-shlok.netlify.app/"
+        />
+        <Card
           img="e-card"
           title="Contact e-Card"
           tools="HTML, CSS, Javascript, React js
