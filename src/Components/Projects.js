@@ -25,7 +25,7 @@ Material UI"
           availableGit={true}
           availableLink={true}
           gitHub="https://github.com/sinhashlok/Portfolio-Website"
-          link="https://sinha-shlok.netlify.app/"
+          live="https://sinha-shlok.netlify.app/"
         />
         <Card
           img="e-card"
