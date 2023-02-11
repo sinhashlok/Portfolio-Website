@@ -8,6 +8,8 @@ export default function Navbar() {
       </h2>
       <div className="nav-links">
         <p className="nav-link-item">About me</p>
+        <p className="nav-link-item">Skills</p>
+        <p className="nav-link-item">Projects</p>
         <p className="nav-link-item">Contact</p>
       </div>
     </nav>

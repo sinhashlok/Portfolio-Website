@@ -14,6 +14,7 @@ export default function Card(props) {
       <p className="card-tools">{props.tools}</p>
       <div className="links">
         <a
+          style={{ display: props.availableGit ? "block" : "none" }}
           href={props.gitHub}
           target="_blank"
           rel="noreferrer"
@@ -22,7 +23,7 @@ export default function Card(props) {
           GitHub
         </a>
         <a
-          style={{ display: props.available ? "block" : "none" }}
+          style={{ display: props.availableLink ? "block" : "none" }}
           rel="noreferrer"
           href={props.live}
           target="_blank"
