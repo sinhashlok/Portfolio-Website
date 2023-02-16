@@ -352,3 +352,13 @@ nav {
 .ui {
   margin-top: 120px;
 }
+
+/* Contact */
+.contact {
+  padding: 160px 48px;
+}
+
+.contact-title {
+  border: 2px solid rgb(0, 0, 0);
+  color: black;
+}
