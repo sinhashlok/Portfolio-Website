@@ -2,10 +2,6 @@ import React, { useState } from "react";
 import SectionsHeadins from "./SectionHeadings";
 import { send } from "emailjs-com";
 
-const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
-const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
-const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY;
-
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -30,7 +26,12 @@ export default function Contact() {
 
   function handleClick(event) {
     event.preventDefault();
-    send({ SERVICE_ID }, { TEMPLATE_ID }, templateParams, { PUBLIC_KEY })
+    send(
+      "service_hewyj6c",
+      "template_onnb4du",
+      templateParams,
+      "dXW4qPmJuwNceuUU3"
+    )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
       })
