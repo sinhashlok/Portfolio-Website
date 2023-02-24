@@ -29,7 +29,7 @@ export default function SocialIcons() {
         <TwitterIcon fontSize="large" className="icons" />
       </a>
       <a
-        href="https://drive.google.com/file/d/1WD777GpIlfNiMcL_Tdj3nDK8g63UpLVR/view?usp=sharing2"
+        href="https://drive.google.com/file/d/1z-ESgGkS8peBcRzC9phd3rdZVYE99MPK/view?usp=sharing̦"
         rel="noreferrer"
         target={"_blank"}
       >
