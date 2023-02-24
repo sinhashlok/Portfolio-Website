@@ -362,3 +362,129 @@ nav {
   border: 2px solid rgb(0, 0, 0);
   color: black;
 }
+
+.contact-box {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+
+  border: 5px solid black;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 70px;
+
+  height: 482px;
+  width: 867px;
+
+  box-shadow: 5px 10px 5px rgb(0, 0, 0, 0.5);
+}
+
+.contact-data {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.contact-tag-line {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 24px;
+  letter-spacing: 0.37px;
+  margin-bottom: 24px;
+
+  color: #000000;
+}
+
+.contact-credential {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.37px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 63px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-message {
+  margin-bottom: 14px;
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.37px;
+
+  color: #000000;
+  text-align: center;
+}
+
+form input {
+  width: 318px;
+  height: 44px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0;
+  margin-top: 12px;
+}
+
+input::placeholder {
+  position: absolute;
+  margin-top: 6px;
+  margin-left: -2px;
+  font-family: "Unbounded";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.37px;
+
+  color: #000000;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+input:focus {
+  outline: none !important;
+  border: 2px solid rgba(232, 69, 69, 1);
+}
+
+.form-textarea {
+  margin: 0;
+  width: 318px;
+  height: 127px;
+  border-radius: 5px;
+  resize: none;
+  outline: none !important;
+  border-radius: 2px solid black;
+}
+
+textarea {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+textarea:focus {
+  border: 2px solid rgba(232, 69, 69, 1);
+}
+
+.text-area-placeholder {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+
+  letter-spacing: 0.37px;
+
+  color: #000000;
+}
